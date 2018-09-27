@@ -12,7 +12,7 @@ source("https://raw.githubusercontent.com/visegura/PS/master/rfuncPS.r")
 
 The following r packages are required: `doParallel`, `MASS`, `emma`, `corpcor` and `BGLR`.
 
-Please note that emma is not the one available from CRAN, it should be downloaded from [UCLA](http://mouse.cs.ucla.edu/emma/) or [github](https://github.com/Gregor-Mendel-Institute/mlmm/files/1356516/emma_1.1.2.tar.gz).
+Please note that emma is not the one available from CRAN, it should be downloaded from [UCLA](http://mouse.cs.ucla.edu/emma/) or for Windows users from [here](https://github.com/Gregor-Mendel-Institute/mlmm/files/1356516/emma_1.1.2.tar.gz).
 
 **Use**
 
