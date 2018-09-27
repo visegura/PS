@@ -1,6 +1,8 @@
-# R functions used in Rincent *et al.* 2018 for evaluating the predictive abilities of SNP and NIRS through cross-validations
+# R functions used in Rincent *et al.* 2018
 
-Functions can be accessed within R as follows:
+This repository includes R functions for evaluating the predictive abilities of SNP and NIRS through cross-validations as reported by Rincent *et al.* 2018
+
+The functions can be accessed within R as follows:
 
 ```
 source("https://raw.githubusercontent.com/visegura/PS/master/rfuncPS.r")
