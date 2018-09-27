@@ -1,26 +1,15 @@
----
-title: "PS R functions"
-author: "V Segura"
-date: "27 septembre 2018"
-output: 
-  html_document: 
-    keep_md: yes
----
+# R functions used in Rincent *et al.* for evaluating the predictive abilities of SNP and NIRS through cross-validations
 
+## Setup
 
-
-R functions used in Rincent *et al.* for evaluating the predictive abilities of SNP and NIRS through cross-validations
-
-# Setup
-
-## PS functions
+### PS functions
 
 
 ```r
 source("https://raw.githubusercontent.com/visegura/PS/master/rfuncPS.r")
 ```
 
-## Dependencies
+### Dependencies
 
 Make use of the very cool `anyLib` package to check and install all dependencies but `emma`:
 
@@ -98,7 +87,7 @@ anyLib("emma")
 ## TRUE
 ```
 
-# Datasets
+## Datasets
 
 The example is carried out on the poplar dataset used in the paper for the trait "Bud Set" evaluated in Orléans trial.
 
