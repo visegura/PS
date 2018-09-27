@@ -183,7 +183,7 @@ BL <- function(Y, X, fold = 5, iter = 50, cores = 1, nIterBGLR = 2000, burnInBGL
   stopifnot(length(Y) == nrow(X))
   stopifnot(cor(match(rownames(X), names(Y)), 1:length(Y)) == 1)
   #na.omit
-  data <- na.omit(data.frame(Y, X))
+  data <- na.omit(data.frame(Y, I(X)))
   n <- nrow(data)
   #repeated cross-validation
   registerDoParallel(cl)
