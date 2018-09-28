@@ -16,4 +16,4 @@ Please note that emma is not the one available from CRAN, it should be downloade
 
 **Use**
 
-Please see the vignette [here](https://github.com/visegura/PS/blob/master/PS_R_functions.md) or [there in pdf](https://github.com/visegura/PS/blob/master/PS_R_functions.pdf)
+Please see the vignette [here](https://github.com/visegura/PS/blob/master/PS_R_functions_github.md) or [there in pdf](https://github.com/visegura/PS/blob/master/PS_R_functions.pdf)
